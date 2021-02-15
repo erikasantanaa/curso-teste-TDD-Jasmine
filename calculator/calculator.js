@@ -1,17 +1,16 @@
-function add () {
-	
+function add (x, y) {
+	return x + y;
 }
 
-function subtract () {
-	
+function subtract (x, y) {
+	return x - y;
 }
 
 function sum () {
-	
 }
 
-function multiply () {
-	
+function multiply (a, b) {
+	return a * b
 }
 
 function power() {
