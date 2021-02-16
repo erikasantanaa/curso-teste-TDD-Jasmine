@@ -6,11 +6,16 @@ function subtract (x, y) {
 	return x - y;
 }
 
-function sum () {
+function sum (sum) {
+	let soma = 0
+	for(let i in sum){
+		soma += sum[i]
+	}
+	return soma
 }
 
-function multiply (a, b) {
-	return a * b
+function multiply (multiplies) {
+
 }
 
 function power() {
