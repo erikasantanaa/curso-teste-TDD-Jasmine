@@ -14,16 +14,22 @@ function sum (sum) {
 	return soma
 }
 
-function multiply (multiplies) {
-
+function multiply (x, y) {
+	// const mult = Math.imul( x, y)
+	// return mult
 }
 
-function power() {
-	
+function power(x, y) {
+	const resul = Math.pow(x, y)
+	return resul
 }
 
-function factorial() {
-	
+function factorial(x) {
+	if(x == 0){
+		return 1;
+	}else{
+		return x * factorial(x - 1)
+	}
 }
 
 module.exports = {
