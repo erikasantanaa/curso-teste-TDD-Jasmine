@@ -14,9 +14,14 @@ function sum (sum) {
 	return soma
 }
 
-function multiply (x, y) {
-	// const mult = Math.imul( x, y)
-	// return mult
+function multiply (calculator) {
+	let mult = 0
+	for( let i = 0; i < mult; i++){
+		if ( mult[i]  * 2){
+			calculator.push(mult[i])
+		}
+	}
+	return mult
 }
 
 function power(x, y) {
