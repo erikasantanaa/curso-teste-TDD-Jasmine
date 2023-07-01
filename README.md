@@ -8,3 +8,6 @@
 
 <h3>Código e o Resultado de Falha no TDD removeFromArray</h3>
 <img src="./img/remove.png" width="700">
+
+
+## Estudos Testes (Em andamento)
